@@ -1,4 +1,6 @@
 import com.weibo.ui.MyFrame;
+import org.python.util.InterpreterTest;
+import org.python.util.PythonInterpreter;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -12,12 +14,15 @@ import java.io.RandomAccessFile;
  */
 public class Main {
     public static void main(String[] args) {
-        try {
-            RandomAccessFile randomAccessFile = new RandomAccessFile("outlog.txt","rw");
-            randomAccessFile.write("Î¢²©RSSÍÆËÍ\n".getBytes());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        MyFrame myFrame = new MyFrame("Weibo");
+        PythonInterpreter interpreter = new PythonInterpreter();
+        interpreter.execfile("src\\com\\pythonMood\\run.py");
+
+//        try {
+//            RandomAccessFile randomAccessFile = new RandomAccessFile("outlog.txt","rw");
+//            randomAccessFile.write("Î¢²©RSSÍÆËÍ\n".getBytes());
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        MyFrame myFrame = new MyFrame("Weibo");
     }
 }

@@ -1,6 +1,5 @@
 package com.weibo.web;
 
-import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -39,7 +38,7 @@ public class FindWeiBo implements Runnable{
         }
     }
 
-    public void userId(String id) {
+    public synchronized void userId(String id) {
         WebBean webBean = null ;
         try {
             String out = SpiderWeb.getWebViewer("https://rsshub.app/weibo/user2/"+id);
