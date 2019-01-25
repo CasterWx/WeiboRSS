@@ -1,24 +1,25 @@
-# WeiboRSS-
+# WeiboRSS
+
 :raising_hand: Weibo subscription and sentiment analysis.
 
-Å®ÅóÓÑµÄÎ¢²©ÇéÐ÷¶©ÔÄ
+å¾®åšåŠ¨æ€è®¢é˜…ã€‚
 
-> Æô¶¯
+> å¯åŠ¨
 ![img1](img/1.png)
 
-> ¼à¿Øµ½Î¢²©¸üÐÂ£¬·¢ËÍÓÊ¼þ
+> ç›‘æŽ§åˆ°å¾®åšæ›´æ–°ï¼Œå‘é€é‚®ä»¶
 ![img2](img/2.png)
-![img3](img/3.png)
+![img3](img/3.png   )
 
-| ÓÃ»§¸üÐÂ | ÓÊ¼þÌáÐÑ |
+| ç”¨æˆ·æ›´æ–° | é‚®ä»¶æé†’ |
 | --------- | ----------|
 | ![img4](img/4.jpg) | ![img5](img/5.jpg) | 
 
 
-### ÔÞÖú
+### èµžåŠ©
 
-| Ö§¸¶±¦ | Î¢ÐÅ |
+| æ”¯ä»˜å® | å¾®ä¿¡ |
 | ------------ | ------------ |
 | <img src="https://www.cnblogs.com/images/cnblogs_com/LexMoon/1246510/o_pay.png"/> |<img src="https://www.cnblogs.com/images/cnblogs_com/LexMoon/1246510/o_wx.png"/> |
 
-µ«ÊÇËæ×ÅÏîÄ¿¹æÄ£µÄÔö³¤£¬Ò²ÐèÒªÓÐÏàÓ¦µÄ×Ê½ðÖ§³Ö²ÅÄÜ³ÖÐøÏîÄ¿µÄÎ¬»¤Óë¿ª·¢¡£Äã¿ÉÒÔÍ¨¹ýÏÂÁÐµÄ·½·¨À´ÔÞÖúÏîÄ¿µÄ¿ª·¢¡£ÄãµÄÃû×Ö»á³öÏÖÔÚÏîÄ¿µÄ GitHub ²Ö¿âºÍ²©¿ÍÎÄµµÖÐ¡£  
+ä½†æ˜¯éšç€é¡¹ç›®è§„æ¨¡çš„å¢žé•¿ï¼Œä¹Ÿéœ€è¦æœ‰ç›¸åº”çš„èµ„é‡‘æ”¯æŒæ‰èƒ½æŒç»­é¡¹ç›®çš„ç»´æŠ¤ä¸Žå¼€å‘ã€‚ä½ å¯ä»¥é€šè¿‡ä¸‹åˆ—çš„æ–¹æ³•æ¥èµžåŠ©é¡¹ç›®çš„å¼€å‘ã€‚ä½ çš„åå­—ä¼šå‡ºçŽ°åœ¨é¡¹ç›®çš„ GitHub ä»“åº“å’Œåšå®¢æ–‡æ¡£ä¸­ã€‚  
